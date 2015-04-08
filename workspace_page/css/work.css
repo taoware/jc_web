@@ -1,0 +1,115 @@
+* {
+    outline:none !important;
+    -moz-outline: none !important;
+}
+html, body{height:100%}
+/* Main */
+
+/*Bootstrap-overlay*/
+
+body {
+    overflow-x: hidden;
+    margin-top: -10px; font-family: Helvetica, sans-serif; font-size:16px; color:#666;
+}
+a{color:#666;font-size: 20px;}
+a:hover, a:focus {
+    text-decoration: none; color:#28b779;
+}
+
+.content{
+    width: 80%;
+    min-height: 100%;
+    background-color: #eee;
+    position: relative;
+    margin-left: 140px;
+
+
+}
+
+.content-header{
+    
+    width: 100%;
+    height: 120px;
+
+}
+
+.bread-crumb{
+    height: 70px;
+}
+.breadcrumb{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    background-color: #eee;
+}
+.breadcrumb li{
+    margin-top:20px;
+    margin-left: 10px;
+}
+.breadcrumb li a:hover{
+    color: #000;
+}
+.breadcrumb li a:active{
+    color: #ddd;
+}
+.divider{
+    border: 1px solid #b5b5b5;
+}
+
+.content-header h1{
+    font-size: 28px;
+    margin-left: 20px;
+}
+.container-fluid{
+    margin-top: 20px;
+}
+.row-fluid{
+    
+}
+.widget-box{
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.widget-box h5{
+    position: relative;
+    left: 10px;
+    top: 14px;
+    font-size: 18px;
+}
+.widget-title{
+    height: 45px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.widget-content{
+    height: auto;
+}
+.widget-content p{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.row{
+    margin-top: 20px;
+}
+.panel{
+    width: 100%;
+    height: auto;
+    border:none;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 767px) {
+
+.content{
+    position:absolute;
+    width:100%;
+    left:-140px;
+}
+}
+
+
+
+
+
