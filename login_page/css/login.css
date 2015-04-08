@@ -1,0 +1,238 @@
+body{
+	background: #f8f8f8;
+	text-align: left;
+	font-family: Helvetica,Arial,sans-serif;
+	color: #555;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+a:hover { text-decoration: none; }
+
+.header {
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background: #f8f8f8 url(../images/pattern.jpg) left top repeat;
+    border-top: 3px solid #f8f8f8;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+.logo{
+    display: inline-block;
+}
+.logo p{
+      float: right;
+      margin-top: 22px;
+      margin-right: 70px;
+      font-size: 28px;
+      color: #00955a;
+}
+.links{
+	text-align: right;
+	margin-top: 30px;
+}
+.register-container{
+	margin-top: 70px;
+    
+}
+
+.iPhone{
+	text-align: center;
+
+}
+.iPhone img{
+	margin-right: 10px;
+    width: 400px;
+    height: 550px;
+}
+
+.register{
+    margin-top: 90px;
+}
+.register form {
+    padding: 20px 50px 40px 50px;
+    background: #eee;
+    text-align: center;
+
+}
+
+.register form h2 {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    background: url(../images/pencil.png) 70px 6px no-repeat;
+    border-bottom: 1px dashed #bbb;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.register form input {
+    width: 95%;
+    height: 30px;
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    border-radius: initial;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #888;
+    font-size: 16px;
+
+}
+
+.register form input:focus {
+    border: 1px solid #ccc;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.register form button {
+    cursor: pointer;
+    width: 60%;
+    height: 42px;
+    margin-top: 10px;
+    padding: 0;
+    background: #44b549;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 0px;
+    border: 0;
+    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.register form button:hover {
+    -moz-box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+    -webkit-box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+    box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+}
+
+.register form button:active {
+    -moz-box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+    box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+}
+
+.ibox{
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    left: 10px;
+}
+.ibox label{
+    float: left;
+    margin-left: -8px;
+    font-size: 16px;
+}
+.ibox label input{
+    width: auto;
+    border: none;
+    clear: both;
+}
+.ibox input a{
+    margin-right: 5px;
+    text-align: right;
+}
+
+.rowgroup{
+    display: inline;
+}
+.icon-inbox{
+    float: left;
+}
+
+
+input[type="checkbox"]{
+    margin: 0px;
+}
+.login-for-pwd{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.qcode{
+	position: fixed;
+	float: right;
+	margin-top: 300px;
+	margin-left: 1180px;
+}
+
+.footer{
+	border-top: 1px solid #eee;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.friendlinks{
+	margin-top: 10px;
+	text-align: center;
+}
+.footing{
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+/* ----- Media queries ----- */
+
+
+@media (max-width: 1200px) {
+
+    .register form h2 { background: url(../images/pencil.png) 20px 6px no-repeat; }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .register form h2 { background: none; }
+    .register{ margin-top: 50px;}
+
+}
+
+@media (max-width: 767px) {
+
+    body { padding-left: 0; padding-right: 0; }
+
+    .logo, .links { text-align: center; }
+
+    .links { padding-bottom: 5px; }
+
+    .logo h1 { padding-left: 0; }
+
+    .links a.home { margin-left: 0; }
+
+    .links a.blog { margin-right: 0; }
+
+    .register-container { padding-left: 20px; padding-right: 20px; }
+
+    .register form h2 { background: none; }
+    .register{ margin-top: 0px; }
+
+    .iPhone img { display: none; }
+
+}
+
+@media (max-width: 480px) {
+
+    .register form button { width: 97%; }
+
+}
+
+
+
