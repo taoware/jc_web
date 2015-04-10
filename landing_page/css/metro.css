@@ -53,7 +53,25 @@ h3{
   font-size: 12px;
 }
 
-
+.header {
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background: #f8f8f8 url(../images/pattern.jpg) left top repeat;
+    border-top: 3px solid #f8f8f8;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+.logo{
+    display: inline-block;
+}
+.logo p{
+      float: right;
+      margin-top: 10px;
+      margin-right: 70px;
+      font-size: 28px;
+      color: #00955a;
+}
 @media (max-width: 767px){
   .grid{
     margin-left:-8px;
