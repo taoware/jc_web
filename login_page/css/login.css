@@ -1,81 +1,87 @@
-body{
-	background: #f8f8f8;
-	text-align: left;
-	font-family: Helvetica,Arial,sans-serif;
-	color: #555;
-	font-size: 16px;
-	font-weight: 400;
-}
+*{margin:0px; padding:0px;}
 
+body{
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+    color: #55a2ea;
+}
 a:hover { text-decoration: none; }
 
 .header {
-    margin: 0 auto;
-    padding-bottom: 5px;
-    background: #f8f8f8 url(../images/pattern.jpg) left top repeat;
-    border-top: 3px solid #f8f8f8;
+    background: #fff;
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
 }
 .logo{
     display: inline-block;
+    
 }
+.logo img{
+    background-color: #006b43;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    
+}
+
 .logo p{
       float: right;
-      margin-top: 22px;
+      padding:34px 0px 10px 10px;
       margin-right: 70px;
       font-size: 28px;
       color: #00955a;
 }
 .links{
-	text-align: right;
-	margin-top: 30px;
+    float: right;
+    margin-top: -50px;
+    color: #6a6960;
 }
 .register-container{
-	margin-top: 70px;
-    
-}
-
-.iPhone{
-	text-align: center;
-
-}
-.iPhone img{
-	margin-right: 10px;
-    width: 400px;
-    height: 550px;
+    margin-top: 70px;   
 }
 
 .register{
-    margin-top: 90px;
+    margin-top: 60px;
+    
+}
+.pull-right{
+    margin-right: 200px;
 }
 .register form {
     padding: 20px 50px 40px 50px;
-    background: #eee;
+    background: rgba(238, 238, 238, 0.72);
     text-align: center;
+    position: relative;
 
 }
-
 .register form h2 {
+    
     margin-bottom: 25px;
     padding-bottom: 15px;
-    background: url(../images/pencil.png) 70px 6px no-repeat;
-    border-bottom: 1px dashed #bbb;
+    border-bottom: 1px dashed #6a6060;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
+
 }
 
 .register form input {
-    width: 95%;
+    width: 85%;
     height: 30px;
-    background: #fcfcfc;
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: initial;
     font-family: Helvetica, Arial, sans-serif;
     color: #888;
     font-size: 16px;
+    z-index:999;
 
 }
 
@@ -88,18 +94,12 @@ a:hover { text-decoration: none; }
 
 .register form button {
     cursor: pointer;
-    width: 60%;
+    width: 85%;
     height: 42px;
     margin-top: 10px;
     padding: 0;
-    background: #44b549;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 0px;
+    background: #61da55;
     border: 0;
-    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
-    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
-    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -157,6 +157,9 @@ a:hover { text-decoration: none; }
     float: left;
 }
 
+input{
+    margin: 10px 0px 20px 0px;
+}
 
 input[type="checkbox"]{
     margin: 0px;
@@ -168,24 +171,23 @@ input[type="checkbox"]{
 }
 
 .qcode{
-	position: fixed;
-	float: right;
-	margin-top: 300px;
-	margin-left: 1180px;
+    position: fixed;
+    float: right;
+    margin-top: 280px;
+    margin-left: 1240px;
 }
 
 .footer{
-	border-top: 1px solid #eee;
-	margin-top: 40px;
-	margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+
 }
-.friendlinks{
-	margin-top: 10px;
-	text-align: center;
-}
+
 .footing{
-	text-align: center;
-	margin-top: 5px;
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
 }
 
 
@@ -201,7 +203,7 @@ input[type="checkbox"]{
 @media (min-width: 768px) and (max-width: 979px) {
 
     .register form h2 { background: none; }
-    .register{ margin-top: 50px;}
+    .register{ margin-top: 50px;margin-right: 0px;}
 
 }
 
@@ -209,29 +211,22 @@ input[type="checkbox"]{
 
     body { padding-left: 0; padding-right: 0; }
 
-    .logo, .links { text-align: center; }
-
-    .links { padding-bottom: 5px; }
-
-    .logo h1 { padding-left: 0; }
-
-    .links a.home { margin-left: 0; }
-
-    .links a.blog { margin-right: 0; }
+    .logo { display:inline-block;text-align: center; }
+    .links{ position:absolute;top:0px;}
+    .register{margin-top: 10px;}
+    .pull-right{ margin-right: 0px; }
 
     .register-container { padding-left: 20px; padding-right: 20px; }
 
     .register form h2 { background: none; }
-    .register{ margin-top: 0px; }
 
-    .iPhone img { display: none; }
 
 }
 
 @media (max-width: 480px) {
 
     .register form button { width: 97%; }
-
+    
 }
 
 
