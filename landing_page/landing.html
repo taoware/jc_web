@@ -11,108 +11,128 @@
     <!-- styles -->
     <link rel="stylesheet" type="text/css" href="css/metro-bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/metro.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="logo">
-                    <img src="images/logo.png" alt="">
-                    <p>教育超市后台管理</p>
-                </div>
-
-
-                <div class="dropdown pull-right">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                        下拉菜单
-                        <span class="caret"></span>
+   <div class="container">
+        <nav class="navbar  navbar-fixed-top">
+            <div class="container">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">信息管理</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">新闻资讯</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">发布任务</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">菜单测试</a></li>
+                    
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                        <p>教育超市后台管理</p>
+                    </div>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">下拉菜单<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#" data-tab="tab-t1">新闻信息管理</a></li>
+                                <li><a href="#" data-tab="tab-t2">资讯管理</a></li>
+                                <li><a href="#" data-tab="tab-t3">区域选择</a></li>
+                                <li><a href="#" data-tab="tab-t4">菜单测试一</a></li>
+                                <li><a href="#" data-tab="tab-t5">菜单测试二</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </div>     
-
+                </div>
+               
             </div>
-        </div>
+            
+        </nav>
     </div>
+</div>
+    <div class="wrapper">
     <div class="container">
         <div class="grid">
             <!--第一排-->
             <div class="row col-md-12">
-                <div class="tile tile-red col-md-4 col-xs-12">
+                <div class="tile tile-red col-md-4 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>no1</h1>
+                            <h1>模块1</h1>
                         </div>
                     </a>
+
                 </div>
-                <div class="tile tile-turquoise col-md-2 col-xs-12">
+                <div class="tile tile-turquoise col-md-2 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>no3</h1>
+                            <h1>模块2</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-emerald col-md-4 col-xs-12">
+                <div class="tile tile-emerald col-md-4 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
-                                <img src="images/twittertile.png">
+                                <img src="images/news.png">
                             </div>
-                            <h1>no2</h1>
+                            <h1>模块3</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-amethyst col-md-1 col-xs-12">
+                <div class="tile tile-amethyst col-md-1 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
-                                <img src="images/twitter2.png">
+                                <img src="images/twitter_45.png">
                             </div>
-                            <h3>no4</h3>
+                            <p>模块4</p>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-amethyst col-md-1 col-xs-12">
+                <div class="tile tile-amethyst col-md-1 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
-                                <img src="images/twitter2.png">
+                                <img src="images/twitter_45.png">
                             </div>
-                            <h3>no4</h3>
+                            <p>模块5</p>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-amethyst col-md-1 col-xs-12">
+
+
+
+                <div class="tile tile-amethyst col-md-1 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
-                                <img src="images/twitter2.png">
+                                <img src="images/twitter_45.png">
                             </div>
-                            <h3>no4</h3>
+                            <p>模块6</p>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-amethyst col-md-1 col-xs-12">
+                <div class="tile tile-amethyst col-md-1 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
-                                <img src="images/twitter2.png">
+                                <img src="images/twitter_45.png">
                             </div>
-                            <h3>no4</h3>
+                            <p>模块7</p>
                         </div>
                     </a>
                 </div>
@@ -128,33 +148,33 @@
             <!--end1-->
             <!--第二排-->
             <div class="row col-md-12">
-                <div class="tile col-md-3 col-xs-12">
+                <div class="tile col-md-3 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twitter2.png">
                             </div>
-                            <h1>no5</h1>
+                            <h1>模块8</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-yellow col-md-3 col-xs-12">
+                <div class="tile tile-yellow col-md-3 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twitter2.png">
                             </div>
-                            <h1>no6</h1>
+                            <h1>模块9</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-carrot col-md-6 col-xs-12">
+                <div class="tile tile-carrot col-md-6 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>n09</h1>
+                            <h1>模块10</h1>
                         </div>
                     </a>
                 </div>
@@ -162,23 +182,23 @@
             <div class="row col-md-12"></div>
             <div class="row col-md-12"></div>
             <div class="row col-md-12">
-                <div class="tile tile-alizarin col-md-3 col-xs-12">
+                <div class="tile tile-alizarin col-md-3 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twitter2.png">
                             </div>
-                            <h1>no7</h1>
+                            <h1>模块11</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-danger col-md-3 col-xs-12">
+                <div class="tile tile-danger col-md-3 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twitter2.png">
                             </div>
-                            <h1>no8</h1>
+                            <h1>模块12</h1>
                         </div>
                     </a>
                 </div>
@@ -189,43 +209,43 @@
             <!--end2-->
             <!-- 第三排 -->
             <div class="row col-md-12">
-                <div class="tile tile-red col-md-4 col-xs-12">
+                <div class="tile tile-red col-md-4 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>no1</h1>
+                            <h1>模块13</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-turquoise col-md-2 col-xs-12">
+                <div class="tile tile-turquoise col-md-2 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>no3</h1>
+                            <h1>模块14</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-emerald col-md-4 col-xs-12">
+                <div class="tile tile-emerald col-md-4 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>no2</h1>
+                            <h1>模块15</h1>
                         </div>
                     </a>
                 </div>
-                <div class="tile tile-turquoise col-md-2 col-xs-12">
+                <div class="tile tile-turquoise col-md-2 col-xs-6">
                     <a href="#">
                         <div class="tile-content">
                             <div class="tile-icon-large">
                                 <img src="images/twittertile.png">
                             </div>
-                            <h1>no3</h1>
+                            <h1>模块16</h1>
                         </div>
                     </a>
                 </div>
@@ -241,6 +261,7 @@
             <!--end 3-->
         </div>
     </div>
+</div>
 </body>
 
 </html>

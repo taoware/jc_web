@@ -1,15 +1,22 @@
 *{margin:0px;
   padding: 0px;
 }
-a:hover,a:focus { text-decoration: none; }
 
-
-.header {
-    background: #fff;
-    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
-    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+body{
+  background-color: #000;
 }
+
+a:hover,a:focus { text-decoration: none; }
+.header{
+  background-color: #fff;
+}
+.navbar{
+  background-color: #fff;
+}
+.wrapper{
+  background-color: #eee;
+}
+
 .logo{
     display: inline-block;
     
@@ -17,27 +24,37 @@ a:hover,a:focus { text-decoration: none; }
 .logo img{
     background-color: #006b43;
     padding: 5px;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     
 }
 
 .logo p{
     float: right;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
-    font-size: 28px;
+    font-size: 22px;
     color: #00955a;
 }
 
-.pull-right{
-    margin-top: 20px;
-    margin-right: 35px;
+.navbar-header button{
+  margin-top:20px;
+}
+.dropdown{
+  margin-right: 35px;
+  margin-top: 5px;
+  border:1px solid #ccc;
+}
+.dropdown-toggle{
+  color:#333;
+}
+.tile{
+  border:4px solid #eee;
 }
  .grid{
     width: 100%;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 110px;
     margin-bottom: 10px;
  }
 
@@ -83,6 +100,10 @@ h2{
 h3{
   font-size: 12px;
 }
+h4{
+  font-size: 10px;
+}
+p{font-size: 15px;color: #fff;}
 
 @media (max-width: 767px){
   .grid{
