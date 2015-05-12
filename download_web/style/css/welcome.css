@@ -9,7 +9,10 @@ html {
     width: 100%;
     height: 100%;
 }
-
+.icon {
+    background: url(img/icon.png) no-repeat;
+    overflow: hidden;
+}
 .iphone_icon {
     background: url(img/iphonec.png) no-repeat;
 }
@@ -144,7 +147,7 @@ html {
 .download_box .erweima {
     width: 110px;
     height: 110px;
-    background-position: -15px -112px;
+    /*background-position: -15px -112px;*/
 }
 .download_box .item {
     display: block;
