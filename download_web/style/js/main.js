@@ -10,7 +10,7 @@ var bIsAndroid = sUserAgent.match(/android/i) == "android";
 var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
 var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 var bIsFirefox = sUserAgent.match(/Firefox/i) == "firefox";
-var url = ["http://app.gxcm.com.cn/XiaoPai20150416_HOST.apk","https://itunes.apple.com/cn/app/xiao-pai/id982165238?mt=8"];//手机客户端下载地址
+var url = ["http://m.57jc.cn/jycs_v1.0.1.apk","itms-services://?action=download-manifest&url=https://taoware.com/jycs.plist"];//手机客户端下载地址
 $(function(){
     if((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
         $(".mobile_download").show();
